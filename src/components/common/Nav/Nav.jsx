@@ -53,16 +53,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/about"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          About
-        </NavLink>
+        <a href="#about">About</a>
       </Typography>
       <Typography
         as="li"

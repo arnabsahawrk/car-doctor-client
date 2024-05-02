@@ -6,7 +6,7 @@ import fourth from "../../assets/images/homeCarousel/4.jpg";
 
 export function HomeCarousel() {
   return (
-    <section className="relative">
+    <section className="relative rounded-xl">
       <Carousel
         className="rounded-xl"
         prevArrow={({ handlePrev }) => (
@@ -81,22 +81,22 @@ export function HomeCarousel() {
         <img
           src={first}
           alt="image 1"
-          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover"
+          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover rounded-xl"
         />
         <img
           src={second}
           alt="image 2"
-          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover"
+          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover rounded-xl"
         />
         <img
           src={third}
           alt="image 3"
-          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover"
+          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover rounded-xl"
         />
         <img
           src={fourth}
           alt="image 4"
-          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover"
+          className="lg:h-[600px] md:h-[500px] h-[450px] w-full object-cover rounded-xl"
         />
       </Carousel>
       {/* Overlay  */}
