@@ -10,6 +10,7 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/icons/logo.svg";
 import { CiSearch } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+import { HashLink } from "react-router-hash-link";
 
 function NavFunctionality() {
   return (
@@ -20,8 +21,8 @@ function NavFunctionality() {
       <button>
         <CiSearch />
       </button>
-      <button className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-4 px-4 lg:px-7 rounded">
-        Appointment
+      <button className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-3 px-4 lg:px-5 rounded">
+        Log In
       </button>
     </div>
   );
@@ -53,7 +54,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <a href="#about">About</a>
+        <HashLink to="/#about">About</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -61,16 +62,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/services"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          Services
-        </NavLink>
+        <HashLink to="/#service">Services</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -78,16 +70,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/blog"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          Blog
-        </NavLink>
+        <HashLink to="/#blog">Blog</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -95,16 +78,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/contact"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          Contact
-        </NavLink>
+        <HashLink to="/#contact">Contact</HashLink>
       </Typography>
       <div className="lg:hidden grid">
         <NavFunctionality />

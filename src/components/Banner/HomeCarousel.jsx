@@ -110,7 +110,7 @@ export function HomeCarousel() {
             have suffered alteration in some form
           </p>
           <div className="flex gap-2 md:gap-4 flex-wrap">
-            <button className="bg-[#FF3811] transition duration-700 ease-in-out text-base md:text-lg border-2 border-[#FF3811] py-1 px-2 md:py-2 lg:py-4 md:px-4 lg:px-7 rounded">
+            <button className="bg-[#FF3811] hover:bg-transparent hover:border-white transition duration-700 ease-in-out text-base md:text-lg border-2 border-[#FF3811] py-1 px-2 md:py-2 lg:py-4 md:px-4 lg:px-7 rounded">
               Discover More
             </button>
             <button className="hover:bg-[#FF3811] hover:border-[#FF3811] transition duration-700 ease-in-out text-base md:text-lg border-2 border-white py-1 px-2 md:py-2 lg:py-4 md:px-4 lg:px-7 rounded">
