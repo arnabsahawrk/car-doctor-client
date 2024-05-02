@@ -137,7 +137,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <Navbar className="shadow-none py-2 backdrop-saturate-0 backdrop-blur-0 border-none rounded-none container mx-auto px-4 max-w-full">
+    <Navbar className="shadow-none py-2 backdrop-saturate-0 backdrop-blur-0 border-none rounded-none container mx-auto px-4">
       <div className="flex items-center justify-between container mx-auto">
         <Link to="/">
           <img className="object-cover size-full" src={logo} alt="Logo" />

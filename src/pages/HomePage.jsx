@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { HomeCarousel } from "../components/Banner/HomeCarousel";
 
 const HomePage = () => {
   return (
@@ -6,7 +7,9 @@ const HomePage = () => {
       <Helmet>
         <title>Home</title>
       </Helmet>
-      <section>{/* <div className="container mx-auto px-4"></div> */}</section>
+      <section className="container mx-auto px-4">
+        <HomeCarousel />
+      </section>
     </>
   );
 };
