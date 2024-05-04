@@ -6,7 +6,7 @@ const ServiceCard = ({ service }) => {
   const { _id, img, title, price } = service;
   return (
     <Link
-      to={`/serviceDetails/${_id}`}
+      to={`/services/details/${_id}`}
       className="rounded-lg p-6 border border-gray-300 space-y-4"
     >
       <img className="w-full object-cover rounded-lg" src={img} alt={title} />

@@ -10,6 +10,7 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/icons/logo.svg";
 import { CiSearch } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+import { HashLink } from "react-router-hash-link";
 
 function NavFunctionality() {
   return (
@@ -53,16 +54,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/about"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          About
-        </NavLink>
+        <HashLink to="/#about">About</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -70,16 +62,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/services"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          Services
-        </NavLink>
+        <HashLink to="/#service">Services</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -87,16 +70,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/products"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          Products
-        </NavLink>
+        <HashLink to="/#products">Products</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -104,16 +78,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <NavLink
-          to="/contact"
-          className={({ isActive, isPending }) =>
-            `${isActive ? "text-[#FF3811]" : ""} ${
-              isPending ? "text-amber-600" : ""
-            }`
-          }
-        >
-          Contact
-        </NavLink>
+        <HashLink to="/#contact">Contact</HashLink>
       </Typography>
       <div className="lg:hidden grid">
         <NavFunctionality />
@@ -122,7 +87,7 @@ function NavList() {
   );
 }
 
-const Nav = () => {
+const HomeNav = () => {
   const [openNav, setOpenNav] = useState(false);
 
   const handleWindowResize = () =>
@@ -171,4 +136,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default HomeNav;

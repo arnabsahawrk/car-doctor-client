@@ -1,6 +1,6 @@
-import { Spinner } from "@material-tailwind/react";
 import useGetServices from "../../hooks/useGetServices";
 import ServiceCard from "../ServicesSection/ServiceCard";
+import Spinner from "../Spinner/Spinner";
 
 const AllServices = () => {
   const { isPending, data: services } = useGetServices();

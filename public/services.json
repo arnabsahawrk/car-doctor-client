@@ -5,23 +5,23 @@
     "title": "Engine Oil Change",
     "img": "https://i.postimg.cc/wxJdDvK4/1.jpg",
     "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+    "description": "Regular engine oil changes are crucial for maintaining the health and longevity of your vehicle's engine. Over time, engine oil breaks down and becomes contaminated with dirt, debris, and combustion byproducts, which can lead to increased wear and tear on engine components. By changing the oil regularly, you ensure that your engine is lubricated with fresh, clean oil, promoting smoother operation, better fuel efficiency, and longer engine life. Additionally, neglecting oil changes can void your vehicle's warranty and potentially lead to costly repairs down the line.",
     "facility": [
       {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Experienced Technicians",
+        "details": "Our team of highly skilled and experienced technicians ensures that every oil change is performed with precision and attention to detail, following manufacturer recommendations and industry best practices."
       },
       {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Quality Oil and Filters",
+        "details": "We only use high-quality synthetic or conventional oils and premium filters, ensuring optimal lubrication and protection for your engine, regardless of driving conditions or mileage."
       },
       {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Comprehensive Vehicle Inspection",
+        "details": "During the oil change service, our technicians conduct a thorough inspection of your vehicle, checking for any potential issues or upcoming maintenance needs, helping you stay ahead of potential problems."
       },
       {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Convenient Service",
+        "details": "We offer flexible scheduling and quick turnaround times, so you can get your oil change done efficiently without disrupting your daily routine."
       }
     ]
   },
@@ -31,23 +31,23 @@
     "title": "Battery Charge",
     "img": "https://i.postimg.cc/KcVDhGRb/4.jpg",
     "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+    "description": "A properly functioning battery is essential for starting your vehicle and powering its electrical systems. Over time, batteries can become discharged or lose their ability to hold a charge, leaving you stranded with a non-starting vehicle. Our battery charging service is designed to restore your battery's charge and ensure reliable starting power. Whether your battery has been drained due to leaving lights or accessories on, or it simply needs a boost due to age or extreme temperatures, our technicians use specialized battery charging equipment to safely and effectively recharge your battery, getting you back on the road quickly.",
     "facility": [
       {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "State-of-the-Art Charging Equipment",
+        "details": "We utilize advanced battery charging and testing equipment to accurately assess the condition of your battery and deliver a safe and effective charging process, tailored to your battery's specific needs."
       },
       {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Battery Replacement Services",
+        "details": "If our inspection reveals that your battery is beyond its serviceable life, we can provide you with a high-quality replacement battery and handle the installation for you."
       },
       {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Electrical System Diagnostics",
+        "details": "In addition to battery charging, our technicians can diagnose and troubleshoot issues with your vehicle's electrical system, ensuring that any underlying problems are identified and addressed."
       },
       {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Convenient and Efficient Service",
+        "details": "Our battery charging service is designed to be quick and convenient, ensuring that you can get back on the road with minimal downtime."
       }
     ]
   },
@@ -57,23 +57,23 @@
     "title": "Full car Repair",
     "img": "https://i.postimg.cc/3RGmKpyH/5.jpg",
     "price": "200.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+    "description": "Over time, vehicles can experience various issues due to normal wear and tear, accidents, or environmental factors. Our full car repair service is designed to address these issues comprehensively, restoring your vehicle to optimal condition and ensuring its safe and reliable operation. Whether you need body work, engine repairs, transmission service, or any other mechanical or electrical repairs, our team of expert technicians has the knowledge and experience to diagnose and fix the problem efficiently. We use only high-quality parts and materials, adhering to manufacturer specifications and industry best practices throughout the repair process.",
     "facility": [
       {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Comprehensive Diagnostics",
+        "details": "Our state-of-the-art diagnostic equipment and experienced technicians ensure that we accurately identify the root cause of any issues, allowing us to provide targeted and effective repairs."
       },
       {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Quality Parts and Materials",
+        "details": "We use only genuine OEM parts or high-quality aftermarket components that meet or exceed manufacturer standards, ensuring reliable and long-lasting repairs."
       },
       {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Expert Body Work and Painting",
+        "details": "Our body shop is equipped with modern tools and equipment, and staffed by skilled technicians who can restore your vehicle's appearance to like-new condition, using industry-leading painting techniques and materials."
       },
       {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Warranty on Repairs",
+        "details": "We stand behind the quality of our work and offer warranties on all repairs, giving you peace of mind and protection against future issues related to the repaired components."
       }
     ]
   },
@@ -83,23 +83,23 @@
     "title": "Engine Repair",
     "img": "https://i.postimg.cc/0QPyhwqQ/2.jpg",
     "price": "150.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+    "description": "The engine is the heart of your vehicle, and any issues with it can significantly impact your car's performance, fuel efficiency, and overall reliability. Our engine repair service is designed to diagnose and resolve a wide range of engine-related problems, from minor issues like oil leaks or misfiring cylinders, to major repairs like cylinder head or crankshaft replacements. Our team of ASE-certified technicians has extensive experience working on various engine types and makes, ensuring that your engine receives the professional attention and expert care it deserves.",
     "facility": [
       {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Comprehensive Engine Diagnostics",
+        "details": "We use state-of-the-art diagnostic tools and techniques to pinpoint the root cause of your engine's issues accurately, ensuring that the repair addresses the underlying problem and not just the symptoms."
       },
       {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Expert Engine Overhauls",
+        "details": "Our technicians are skilled in performing complete engine overhauls, including disassembly, inspection, reconditioning, and reassembly, ensuring that your engine is restored to optimal condition."
       },
       {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Quality Parts and Components",
+        "details": "We only use high-quality OEM or aftermarket parts that meet or exceed manufacturer specifications, ensuring reliable and long-lasting repairs."
       },
       {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Warranty on Repairs",
+        "details": "We stand behind the quality of our work and offer warranties on all engine repairs, giving you peace of mind and protection against future issues."
       }
     ]
   },
@@ -109,23 +109,23 @@
     "title": "Automatic Services",
     "img": "https://i.postimg.cc/G2j3JhVy/6.jpg",
     "price": "30.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+    "description": "Automatic transmissions are complex systems that require regular maintenance and care to ensure smooth and reliable performance. Our automatic transmission service is designed to address common issues, such as fluid leaks, slipping gears, rough shifting, and excessive noise or vibration. Our skilled technicians have extensive experience in diagnosing and repairing automatic transmissions across various makes and models. We use specialized tools and equipment to thoroughly inspect and service your transmission, including fluid changes, filter replacements, and any necessary adjustments or repairs.",
     "facility": [
       {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Expert Transmission Diagnostics",
+        "details": "Our technicians employ advanced diagnostic techniques and tools to accurately identify transmission issues, ensuring that the root cause is addressed and the repair is effective and long-lasting."
       },
       {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Transmission Overhaul and Rebuilding",
+        "details": "If necessary, our technicians can perform complete transmission overhauls or rebuilds, disassembling the transmission, inspecting and replacing worn components, and reassembling it to factory specifications."
       },
       {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Quality Transmission Fluids and Filters",
+        "details": "We use only high-quality transmission fluids and filters specifically designed for your vehicle's make and model, ensuring optimal performance and protection."
       },
       {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Comprehensive Service and Warranties",
+        "details": "Our transmission services are comprehensive, covering everything from routine maintenance to complex repairs, and we offer warranties to give you peace of mind."
       }
     ]
   },
@@ -135,23 +135,23 @@
     "title": "Electrical System",
     "img": "https://i.postimg.cc/5yxdxBPH/3.jpg",
     "price": "20.00",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+    "description": "Your vehicle's electrical system is a complex network of components responsible for powering various systems, from lighting and instrumentation to advanced safety features and entertainment systems. Issues with the electrical system can manifest in various ways, such as dim or flickering lights, battery drainage, malfunctioning accessories, or warning lights on the dashboard. Our electrical system service is designed to diagnose and resolve these issues, ensuring that your vehicle's electrical components are functioning properly and efficiently.",
     "facility": [
       {
-        "name": "Instant Car Services",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Advanced Diagnostic Tools",
+        "details": "Our technicians use state-of-the-art diagnostic equipment and techniques to pinpoint the root cause of electrical system issues accurately, whether it's a faulty component, wiring issue, or software glitch."
       },
       {
-        "name": "24/7 Quality Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Comprehensive Electrical Repairs",
+        "details": "From replacing faulty batteries and alternators to troubleshooting and repairing wiring harnesses, our technicians have the expertise to handle all aspects of electrical system repairs."
       },
       {
-        "name": "Easy Customer Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Software Updates and Reprogramming",
+        "details": "We can perform software updates and reprogramming for various onboard computers and control modules, ensuring that your vehicle's electrical systems are operating with the latest software versions."
       },
       {
-        "name": "Quality Cost Service",
-        "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+        "name": "Quality Parts and Components",
+        "details": "We only use high-quality OEM or aftermarket electrical components that meet or exceed manufacturer specifications, ensuring reliable and long-lasting repairs."
       }
     ]
   }

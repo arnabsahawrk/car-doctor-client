@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import { ServiceContext } from "../../pages/ServiceDetailsPage";
 import useGetServices from "../../hooks/useGetServices";
-import { Spinner } from "@material-tailwind/react";
 import { FaArrowRight, FaFileLines } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/icons/logooo.png";
+import Spinner from "../Spinner/Spinner";
 
 const RightSide = () => {
   const service = useContext(ServiceContext);
@@ -22,7 +22,7 @@ const RightSide = () => {
             {services?.slice(0, 8).map((service) => (
               <NavLink
                 key={service?._id}
-                to={`/serviceDetails/${service?._id}`}
+                to={`/services/details/${service?._id}`}
                 className={({ isActive, isPending }) =>
                   `${
                     isActive
