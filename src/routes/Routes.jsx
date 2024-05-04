@@ -3,6 +3,7 @@ import MainLayout from "../layouts/MainLayout";
 import ErrorLayout from "../layouts/ErrorLayout";
 import HomePage from "../pages/HomePage";
 import AllServicesPage from "../pages/AllServicesPage";
+import ServiceDetailsPage from "../pages/ServiceDetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/allServices",
         element: <AllServicesPage />,
+      },
+      {
+        path: "/serviceDetails/:id",
+        element: <ServiceDetailsPage />,
       },
     ],
   },

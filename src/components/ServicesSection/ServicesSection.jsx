@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import Services from "./Services";
 
 const ServicesSection = () => {
+  const navigate = useNavigate();
   return (
     <section id="service">
       <div className="space-y-5 text-center mx-auto pt-4">
@@ -15,6 +17,14 @@ const ServicesSection = () => {
         </p>
       </div>
       <Services />
+      <div className="text-center mt-10">
+        <button
+          onClick={() => navigate("/allServices")}
+          className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-3 px-4 lg:px-5 rounded"
+        >
+          More Services
+        </button>
+      </div>
     </section>
   );
 };

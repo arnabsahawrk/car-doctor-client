@@ -5,7 +5,7 @@ const useGetServices = () => {
   //Get services data func
   const getServices = async () => {
     try {
-      const { data } = await axios.get("services.json");
+      const { data } = await axios.get("/services.json");
       return data;
     } catch (err) {
       console.error("Failed To Fetch Services", err);
