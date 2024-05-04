@@ -1,9 +1,11 @@
 import useGetServices from "../../hooks/useGetServices";
 import ServiceCard from "./ServiceCard";
 import Spinner from "../Spinner/Spinner";
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
   const { isPending, data: services } = useGetServices();
+  const navigate = useNavigate();
 
   return (
     <>
@@ -17,7 +19,10 @@ const Services = () => {
             ))}
           </div>
           <div className="text-center">
-            <button className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-3 px-4 lg:px-5 rounded">
+            <button
+              onClick={() => navigate("/allServices")}
+              className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-3 px-4 lg:px-5 rounded"
+            >
               More Services
             </button>
           </div>

@@ -2,8 +2,8 @@ import { Helmet } from "react-helmet-async";
 import { HomeCarousel } from "../components/Banner/HomeCarousel";
 import AboutSection from "../components/AboutSection/AboutSection";
 import ServicesSection from "../components/ServicesSection/ServicesSection";
-import BlogSection from "../components/BlogSection/BlogSection";
 import ContactSection from "../components/ContactSection/ContactSection";
+import ProductsSection from "../components/ProductsSection/ProductsSection";
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
         <AboutSection />
         <ServicesSection />
         <ContactSection />
-        <BlogSection />
+        <ProductsSection />
       </section>
     </>
   );

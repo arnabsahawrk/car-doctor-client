@@ -70,7 +70,7 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <HashLink to="/#blog">Blog</HashLink>
+        <HashLink to="/#products">Products</HashLink>
       </Typography>
       <Typography
         as="li"
