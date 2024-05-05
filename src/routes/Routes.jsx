@@ -4,6 +4,9 @@ import ErrorLayout from "../layouts/ErrorLayout";
 import HomePage from "../pages/HomePage";
 import AllServicesPage from "../pages/AllServicesPage";
 import ServiceDetailsPage from "../pages/ServiceDetailsPage";
+import OrderPage from "../pages/OrderPage";
+import DashboardLayout from "../layouts/DashboardLayout";
+import LogInPage from "../pages/LogInPage";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +25,21 @@ const router = createBrowserRouter([
       {
         path: "/services/details/:id",
         element: <ServiceDetailsPage />,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    element: <DashboardLayout />,
+    errorElement: <ErrorLayout />,
+    children: [
+      {
+        index: true,
+        element: <OrderPage />,
+      },
+      {
+        path: "/dashboard/login",
+        element: <LogInPage />,
       },
     ],
   },

@@ -6,31 +6,8 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/icons/logo.svg";
-import { CiSearch } from "react-icons/ci";
-import { HiOutlineShoppingBag } from "react-icons/hi";
-import { HashLink } from "react-router-hash-link";
-
-function NavFunctionality() {
-  const navigate = useNavigate();
-  return (
-    <div className="text-[#444444] text-2xl flex items-center gap-5 font-semibold justify-center lg:justify-normal">
-      <button>
-        <HiOutlineShoppingBag />
-      </button>
-      <button>
-        <CiSearch />
-      </button>
-      <button
-        onClick={() => navigate("/dashboard/login")}
-        className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-3 px-4 lg:px-5 rounded"
-      >
-        Log In
-      </button>
-    </div>
-  );
-}
 
 function NavList() {
   return (
@@ -42,14 +19,15 @@ function NavList() {
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
         <NavLink
-          to="/"
+          to="/dashboard"
+          end
           className={({ isActive, isPending }) =>
             `${isActive ? "text-[#FF3811]" : ""} ${
               isPending ? "text-amber-600" : ""
             }`
           }
         >
-          Home
+          Order
         </NavLink>
       </Typography>
       <Typography
@@ -58,7 +36,16 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <HashLink to="/#about">About</HashLink>
+        <NavLink
+          to="/dashboard/orderReview"
+          className={({ isActive, isPending }) =>
+            `${isActive ? "text-[#FF3811]" : ""} ${
+              isPending ? "text-amber-600" : ""
+            }`
+          }
+        >
+          Order Review
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -66,7 +53,16 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <HashLink to="/#service">Services</HashLink>
+        <NavLink
+          to="/dashboard/manageInventory"
+          className={({ isActive, isPending }) =>
+            `${isActive ? "text-[#FF3811]" : ""} ${
+              isPending ? "text-amber-600" : ""
+            }`
+          }
+        >
+          Manage Inventory
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -74,24 +70,22 @@ function NavList() {
         color="blue-gray"
         className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
       >
-        <HashLink to="/#products">Products</HashLink>
+        <NavLink
+          to="/dashboard/login"
+          className={({ isActive, isPending }) =>
+            `${isActive ? "text-[#FF3811]" : ""} ${
+              isPending ? "text-amber-600" : ""
+            }`
+          }
+        >
+          Login
+        </NavLink>
       </Typography>
-      <Typography
-        as="li"
-        variant="paragraph"
-        color="blue-gray"
-        className="font-bold font-inter hover:text-[#FF3811] text-[#444444]"
-      >
-        <HashLink to="/#contact">Contact</HashLink>
-      </Typography>
-      <div className="lg:hidden grid">
-        <NavFunctionality />
-      </div>
     </ul>
   );
 }
 
-const HomeNav = () => {
+const DashboardNav = () => {
   const [openNav, setOpenNav] = useState(false);
 
   const handleWindowResize = () =>
@@ -129,9 +123,6 @@ const HomeNav = () => {
             />
           )}
         </IconButton>
-        <div className="hidden lg:grid">
-          <NavFunctionality />
-        </div>
       </div>
       <Collapse open={openNav}>
         <NavList />
@@ -140,4 +131,4 @@ const HomeNav = () => {
   );
 };
 
-export default HomeNav;
+export default DashboardNav;

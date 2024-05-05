@@ -6,12 +6,13 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import logo from "../../../assets/icons/logo.svg";
 import { CiSearch } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 
 function NavFunctionality() {
+  const navigate = useNavigate();
   return (
     <div className="text-[#444444] text-2xl flex items-center gap-5 font-semibold justify-center lg:justify-normal">
       <button>
@@ -20,7 +21,10 @@ function NavFunctionality() {
       <button>
         <CiSearch />
       </button>
-      <button className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-3 px-4 lg:px-5 rounded">
+      <button
+        onClick={() => navigate("/dashboard/login")}
+        className="text-[#FF3811] hover:text-white hover:bg-[#FF3811] transition duration-700 ease-in-out text-lg border-2 border-[#FF3811] py-2 lg:py-3 px-4 lg:px-5 rounded"
+      >
         Log In
       </button>
     </div>
