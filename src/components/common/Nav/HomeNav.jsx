@@ -45,7 +45,7 @@ function NavList() {
             }`
           }
         >
-          Home
+          Home Home
         </NavLink>
       </Typography>
       <Typography
