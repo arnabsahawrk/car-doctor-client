@@ -7,11 +7,11 @@ const AllServicesBanner = () => {
         backgroundImage: `url(${servicesBG})`,
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-[#151515] to-[#15151500] rounded-lg grid grid-cols-1 text-white">
-        <h2 className="text-3xl lg:text-[45px] font-bold ml-6 lg:ml-16 place-content-end">
+      <div className="absolute inset-0 bg-gradient-to-r from-[#151515] to-[#15151500] rounded-lg text-white flex flex-col items-center justify-between">
+        <h2 className="text-3xl lg:text-[45px] font-bold mt-10">
           All Services
         </h2>
-        <p className="place-content-end mx-auto relative">
+        <p className="relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 296 50"
